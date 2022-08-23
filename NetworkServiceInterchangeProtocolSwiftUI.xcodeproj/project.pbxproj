@@ -15,8 +15,9 @@
 		C084197428B50696000723FD /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084197328B50696000723FD /* WebService.swift */; };
 		C084197628B50D25000723FD /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084197528B50D25000723FD /* UserViewModel.swift */; };
 		C084197928B51036000723FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084197828B51036000723FD /* Constants.swift */; };
-		C084197B28B54838000723FD /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = C084197A28B54838000723FD /* users.json */; };
 		C084197D28B54882000723FD /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084197C28B54882000723FD /* LocalService.swift */; };
+		C084197F28B54AD7000723FD /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084197E28B54AD7000723FD /* NetworkService.swift */; };
+		C084198128B551CE000723FD /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = C084198028B551CE000723FD /* users.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,8 +30,9 @@
 		C084197328B50696000723FD /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		C084197528B50D25000723FD /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		C084197828B51036000723FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		C084197A28B54838000723FD /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = users.json; path = ../../users.json; sourceTree = "<group>"; };
 		C084197C28B54882000723FD /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
+		C084197E28B54AD7000723FD /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		C084198028B551CE000723FD /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,7 @@
 		C084195E28B4F0CF000723FD /* NetworkServiceInterchangeProtocolSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				C084197A28B54838000723FD /* users.json */,
+				C084198028B551CE000723FD /* users.json */,
 				C084197728B5101C000723FD /* Constants */,
 				C084197228B50680000723FD /* ViewModel */,
 				C084197128B50662000723FD /* Service */,
@@ -97,6 +99,7 @@
 			children = (
 				C084197328B50696000723FD /* WebService.swift */,
 				C084197C28B54882000723FD /* LocalService.swift */,
+				C084197E28B54AD7000723FD /* NetworkService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -175,7 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C084197B28B54838000723FD /* users.json in Resources */,
+				C084198128B551CE000723FD /* users.json in Resources */,
 				C084196728B4F0D5000723FD /* Preview Assets.xcassets in Resources */,
 				C084196428B4F0D5000723FD /* Assets.xcassets in Resources */,
 			);
@@ -190,6 +193,7 @@
 			files = (
 				C084196228B4F0CF000723FD /* ContentView.swift in Sources */,
 				C084197028B50658000723FD /* UserModel.swift in Sources */,
+				C084197F28B54AD7000723FD /* NetworkService.swift in Sources */,
 				C084197428B50696000723FD /* WebService.swift in Sources */,
 				C084197628B50D25000723FD /* UserViewModel.swift in Sources */,
 				C084196028B4F0CF000723FD /* NetworkServiceInterchangeProtocolSwiftUIApp.swift in Sources */,
