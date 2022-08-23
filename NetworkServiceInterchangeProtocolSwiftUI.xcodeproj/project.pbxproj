@@ -11,6 +11,10 @@
 		C084196228B4F0CF000723FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084196128B4F0CF000723FD /* ContentView.swift */; };
 		C084196428B4F0D5000723FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C084196328B4F0D5000723FD /* Assets.xcassets */; };
 		C084196728B4F0D5000723FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C084196628B4F0D5000723FD /* Preview Assets.xcassets */; };
+		C084197028B50658000723FD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084196F28B50658000723FD /* UserModel.swift */; };
+		C084197428B50696000723FD /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084197328B50696000723FD /* WebService.swift */; };
+		C084197628B50D25000723FD /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084197528B50D25000723FD /* UserViewModel.swift */; };
+		C084197928B51036000723FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084197828B51036000723FD /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		C084196128B4F0CF000723FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C084196328B4F0D5000723FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C084196628B4F0D5000723FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C084196F28B50658000723FD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		C084197328B50696000723FD /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		C084197528B50D25000723FD /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		C084197828B51036000723FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		C084195E28B4F0CF000723FD /* NetworkServiceInterchangeProtocolSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C084197728B5101C000723FD /* Constants */,
+				C084197228B50680000723FD /* ViewModel */,
+				C084197128B50662000723FD /* Service */,
+				C084196E28B50649000723FD /* Model */,
 				C084195F28B4F0CF000723FD /* NetworkServiceInterchangeProtocolSwiftUIApp.swift */,
 				C084196128B4F0CF000723FD /* ContentView.swift */,
 				C084196328B4F0D5000723FD /* Assets.xcassets */,
@@ -65,6 +77,38 @@
 				C084196628B4F0D5000723FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C084196E28B50649000723FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C084196F28B50658000723FD /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C084197128B50662000723FD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C084197328B50696000723FD /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C084197228B50680000723FD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C084197528B50D25000723FD /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C084197728B5101C000723FD /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				C084197828B51036000723FD /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +182,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C084196228B4F0CF000723FD /* ContentView.swift in Sources */,
+				C084197028B50658000723FD /* UserModel.swift in Sources */,
+				C084197428B50696000723FD /* WebService.swift in Sources */,
+				C084197628B50D25000723FD /* UserViewModel.swift in Sources */,
 				C084196028B4F0CF000723FD /* NetworkServiceInterchangeProtocolSwiftUIApp.swift in Sources */,
+				C084197928B51036000723FD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
